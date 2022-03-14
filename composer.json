@@ -15,10 +15,5 @@
     ],
     "require": {
         "symfony/serializer": "4.1.0"
-    },
-    "config": {
-        "allow-plugins": {
-            "symfony/flex": true
-        }
     }
 }
