@@ -13,7 +13,11 @@
             "email": "p.m.byzance0817@gmail.com"
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
     "require": {
+        "league/flysystem": "1.0.57",
         "symfony/serializer": "4.1.0"
     }
 }
