@@ -1,0 +1,24 @@
+{
+    "name": "kzmshx/test-dependabot-configuration",
+    "description": "Test Dependabot configuration.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kzmshx\\TestDependabotConfiguration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kazumasa Hirata",
+            "email": "p.m.byzance0817@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "4.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}
