@@ -11,3 +11,6 @@ updates:
         labels:
             - "composer-update"
         versioning-strategy: "auto"
+        ignore:
+            - dependency-name: "symfony/serializer"
+              update-types: [ "version-update:semver-major" ]
